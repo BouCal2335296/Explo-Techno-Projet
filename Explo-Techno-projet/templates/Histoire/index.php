@@ -1,5 +1,5 @@
 <h1>Histoire</h1>
-<a href="templates/Accueil"><button>Acceuil</button></a>
+<a href="templates/Accueil/"><button>Acceuil</button></a>
 <br>
 <h4>Semaine 1 :</h4>
     <h5>Cours 1 :<h5>
