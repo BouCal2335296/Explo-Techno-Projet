@@ -770,3 +770,119 @@ Stack Trace:
 
 Request URL: /email/html
 Client IP: 127.0.0.1
+2024-11-06 14:59:47 error: [Cake\Http\Exception\MissingControllerException] Controller class `Home` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Home
+2024-11-06 14:59:52 error: [Cake\Http\Exception\MissingControllerException] Controller class `Home` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /home
+2024-11-06 15:00:00 error: [Cake\Http\Exception\MissingControllerException] Controller class `Acceuil` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Acceuil',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Acceuil
+2024-11-06 15:55:58 error: [Cake\Http\Exception\MissingControllerException] Controller class `Inscription` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Inscription',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Inscription
