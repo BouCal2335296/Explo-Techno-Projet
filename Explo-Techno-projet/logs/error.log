@@ -886,3 +886,611 @@ Stack Trace:
 - [main]:
 
 Request URL: /Inscription
+2024-11-12 19:29:41 warning: include(includes/connexion-bd.php): Failed to open stream: No such file or directory
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php, line 1
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:29:41 warning: include(): Failed opening 'includes/connexion-bd.php' for inclusion (include_path='C:\xampp\php\PEAR')
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php, line 1
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:29:41 warning: Undefined variable $con
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:29:41 error: [Error] Call to a member function prepare() on null in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php on line 6
+Stack Trace:
+- CORE\src\View\View.php:1188
+- CORE\src\View\View.php:1145
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Accueil
+Client IP: 127.0.0.1
+2024-11-12 19:30:57 warning: include(includes/connexion-bd.php): Failed to open stream: No such file or directory
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php, line 1
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:31:00 warning: include(): Failed opening 'includes/connexion-bd.php' for inclusion (include_path='C:\xampp\php\PEAR')
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php, line 1
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:32:49 warning: include(includes/connexion-bd.php): Failed to open stream: No such file or directory
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php, line 1
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:32:49 warning: include(): Failed opening 'includes/connexion-bd.php' for inclusion (include_path='C:\xampp\php\PEAR')
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php, line 1
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:32:49 warning: Undefined variable $con
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:32:49 error: [Error] Call to a member function prepare() on null in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php on line 6
+Stack Trace:
+- CORE\src\View\View.php:1188
+- CORE\src\View\View.php:1145
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Accueil
+Client IP: 127.0.0.1
+2024-11-12 19:34:17 error: [Cake\Http\Exception\MissingControllerException] Controller class `ExploTechnoProjet` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'ExploTechnoProjet',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Explo-Techno-projet/Explo-Techno-Projet/Accueil
+Client IP: 127.0.0.1
+2024-11-12 19:34:36 error: [Cake\Http\Exception\MissingControllerException] Controller class `ExploTechnoProjet` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'ExploTechnoProjet',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Explo-Techno-projet/Explo-Techno-Projet/Accueil
+Client IP: 127.0.0.1
+2024-11-12 19:35:00 error: [Cake\Http\Exception\MissingControllerException] Controller class `ExploTechnoProjet` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'ExploTechnoProjet',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Explo-Techno-projet/Explo-Techno-Projet/Accueil
+Client IP: 127.0.0.1
+2024-11-12 19:38:03 error: [Cake\Http\Exception\MissingControllerException] Controller class `ExploTechnoProjet` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'ExploTechnoProjet',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Explo-Techno-projet/Explo-Techno-Projet/
+Client IP: 127.0.0.1
+2024-11-12 19:39:03 error: [Cake\Http\Exception\MissingControllerException] Controller class `ExploTechnoProjet` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'ExploTechnoProjet',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Explo-Techno-projet/Explo-Techno-Projet/
+Client IP: 127.0.0.1
+2024-11-12 19:39:36 error: [Cake\Http\Exception\MissingControllerException] Controller class `ExploTechnoProjet` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'ExploTechnoProjet',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Explo-Techno-projet/Explo-Techno-Projet/Explo-Techno-projet/
+Client IP: 127.0.0.1
+2024-11-12 19:40:04 warning: include(/connexion-bd.php): Failed to open stream: No such file or directory
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php, line 1
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:40:04 warning: include(): Failed opening '/connexion-bd.php' for inclusion (include_path='C:\xampp\php\PEAR')
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php, line 1
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:40:04 warning: Undefined variable $con
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 710
+Cake\Controller\Controller->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php, line 514
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-12 19:40:04 error: [Error] Call to a member function prepare() on null in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Accueil\Index.php on line 6
+Stack Trace:
+- CORE\src\View\View.php:1188
+- CORE\src\View\View.php:1145
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Accueil
+Client IP: 127.0.0.1
