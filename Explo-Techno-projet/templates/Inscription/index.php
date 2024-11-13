@@ -2,11 +2,11 @@
     <h2>Inscription</h2>
     <form action="">
         <label for="username">Nom d'utilisateur :</label>
-        <input class="input-90" type="text" name="username" required>
+        <input type="text" name="username" required>
         <label for="email">Adresse Mail :</label>
-        <input class="input-90" type="email" name="email" required>
+        <input type="email" name="email" required>
         <label for="password">Mot de passe :</label>
-        <input class="input-90" type="password" name="password" minlength=8 required>
+        <input type="password" name="password" minlength=8 required>
         <label for="role">Rôle:</label>
         <select name="role">
             <option value="visiteur">Visiteur</option>
