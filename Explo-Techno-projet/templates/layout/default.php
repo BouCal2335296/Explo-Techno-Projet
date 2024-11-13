@@ -36,11 +36,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
     <nav class="top-nav">
         <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
+            <a href="../Explo-Techno-projet/Accueil"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
-            <a target="_blank" rel="noopener" href="https://book.cakephp.org/5/">Documentation</a>
-            <a target="_blank" rel="noopener" href="https://api.cakephp.org/">API</a>
+            <a rel="noopener" href="../Explo-Techno-projet/Connexion">Connexion</a>
+            <a rel="noopener" href="../Explo-Techno-projet/Inscription">Inscription</a>
         </div>
     </nav>
     <main class="main">
