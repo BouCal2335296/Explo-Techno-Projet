@@ -297,3 +297,21 @@ input[type='color'] {
         content: " \2190";
     }
 }
+
+label
+{
+    width: 90%;
+}
+
+.div-arrondi {
+    border: 2px solid black; /* Bordure noire de 2px */
+    border-radius: 15px; /* Coins arrondis */
+    width: 40%;
+    padding: 20px; /* Espacement intérieur */
+    margin: 20px; /* Espacement autour du div */
+}
+
+.div-50
+{
+    width: 90%;
+}
