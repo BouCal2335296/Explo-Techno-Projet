@@ -116,7 +116,7 @@ th {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 112rem;
+    max-width: 100%;
     padding: 2rem;
     margin: 0 auto;
 }
@@ -296,4 +296,17 @@ input[type='color'] {
     .desc:after {
         content: " \2190";
     }
+}
+
+label
+{
+    width: 90%;
+}
+
+.div-arrondi {
+    border: 2px solid black; /* Bordure noire de 2px */
+    border-radius: 15px; /* Coins arrondis */
+    width: 40%;
+    padding: 20px; /* Espacement intérieur */
+    margin: 20px; /* Espacement autour du div */
 }
