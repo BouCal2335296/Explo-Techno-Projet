@@ -1,5 +1,15 @@
 import RPi.GPIO as GPIO
 import time
+import mysql.connector
+
+#connection à la base de donnée
+db = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="",
+    database="stationsolaire"
+)
+
  
 # Configuration des paramètres du GPIO
 GPIO.setmode(GPIO.BCM)  # Utilise la numérotation des broches GPIO (BCM)
@@ -52,6 +62,12 @@ try:
 
         tourner_RAZ()
         time.sleep(1)
+# A TESTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        with mysql.connector.connect(**connection_params) as db :
+        with db.cursor() as c:
+        c.execute("insert into orientationmoteur (position) \
+                   values ()")
+        db.commit()
  
 except KeyboardInterrupt:
     print("Arrêt du programme")
@@ -59,3 +75,4 @@ except KeyboardInterrupt:
 finally:
     pwm.stop()
     GPIO.cleanup()
+    db.close()
