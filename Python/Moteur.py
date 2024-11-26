@@ -1,5 +1,16 @@
 import RPi.GPIO as GPIO
 import time
+import mysql.connector
+
+# Connection à la base de donnée
+db = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="",
+    database="stationsolaire"
+)
+myCursor = db.cursor()
+
  
 # Configuration des paramètres du GPIO
 GPIO.setmode(GPIO.BCM)  # Utilise la numérotation des broches GPIO (BCM)
@@ -13,21 +24,7 @@ GPIO.setup(servo_pin, GPIO.OUT)
 pwm = GPIO.PWM(servo_pin, 20)  # Fréquence de 50Hz pour le servo moteur
 pwm.start(0)  # Démarre avec un rapport cyclique de 0 (ne bouge pas le moteur)
  
-# Fonctions pour contrôler le moteur
 def tourner_A():
-    pwm.ChangeDutyCycle(7.5)  # Ajustez la valeur pour la rotation à droite
-    time.sleep(1)
-
-def tourner_B():
-
-    pwm.ChangeDutyCycle(7.5)  # Ajustez la valeur pour la rotation à droite
-    time.sleep(1)
-
-def tourner_C():
-    pwm.ChangeDutyCycle(7.5)  # Ajustez la valeur pour la rotation à droite
-    time.sleep(1)
-
-def tourner_D():
     pwm.ChangeDutyCycle(7.5)  # Ajustez la valeur pour la rotation à droite
     time.sleep(1)
 
@@ -37,21 +34,24 @@ def tourner_RAZ():
  
 
 try:
-    while True:
+    val = 0
+    for(i=0 ; i==3; i++):
+    
         tourner_A()
         time.sleep(1)
+        #relever = résultat du capteur
 
-        tourner_B()
-        time.sleep(1)
+        if (val < relever):
+            val = relever
+    
 
-        tourner_C()
-        time.sleep(1)
+    tourner_RAZ()
+    time.sleep(1)
 
-        tourner_D()
-        time.sleep(1)
 
-        tourner_RAZ()
-        time.sleep(1)
+    query = "INSERT INTO orientationmoteur (position) VALUES (%s)"
+    myCursor.execute(query)
+    db.commit()
  
 except KeyboardInterrupt:
     print("Arrêt du programme")
@@ -59,3 +59,4 @@ except KeyboardInterrupt:
 finally:
     pwm.stop()
     GPIO.cleanup()
+    db.close()
