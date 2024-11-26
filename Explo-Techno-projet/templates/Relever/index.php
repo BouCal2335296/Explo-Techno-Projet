@@ -5,7 +5,6 @@
  */
 ?>
 <div class="relever index content">
-    <?= $this->Html->link(__('New Relever'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Relever') ?></h3>
     <div class="table-responsive">
         <table>
