@@ -50,7 +50,7 @@ try:
 
 
     query = "INSERT INTO orientationmoteur (position) VALUES (%s)"
-    myCursor.execute(val)
+    myCursor.execute(query)
     db.commit()
  
 except KeyboardInterrupt:
