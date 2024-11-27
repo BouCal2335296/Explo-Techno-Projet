@@ -26,23 +26,11 @@ def read(chn): #channel
 		print (e)
 	return bus.read_byte(address)
 
-def ecrireValeurCapteur(val):
-	try:
-		temp = val # move string value to temp
-		temp = int(temp) # change string to integer
-		# print temp to see on terminal else comment out
-		bus.write_byte_data(address, 0x40, temp)
-	except Exception as e:
-		print ("Error: Device address: 0x%2X" % address)
-		print (e)
-
 ## à dé^lacer dans le try catch --- permet d'avoir le relever du capteur
 if __name__ == "__main__":
 	setup(0x48)
 	print ('AIN0 = ', read(0))
-	tmp = read(0)
-	tmp = tmp*(255-125)/255+125 # LED won't light up below 125, so convert '0-255' to '125-255'
-	ecrireValeurCapteur(tmp)
+	
 
 #######################################################################################################################
 
@@ -77,30 +65,33 @@ def tourner_RAZ():
     time.sleep(1)
  
 
-try:
-    val = 0
-    
-    
-    tourner_A()
-    time.sleep(1)
-    #relever = résultat du capteur
 
-    if (val < relever):
-        val = relever
-    
+val = 0
+i = 0
+while i < 3:
+	tourner_A()
+	time.sleep(1)
 
-    tourner_RAZ()
-    time.sleep(1)
+	if __name__ == "__main__":
+		setup(0x48)
+		relever = read(0)
+		print ('AIN0 = ', read(0))
+
+   	#relever = résultat du capteur
+	if val < relever:
+		val = relever
+
+	i+1
+
+tourner_RAZ()
+time.sleep(1)
 
 
-    sql = "INSERT INTO orientationmoteur (position) VALUES (%s)"
-    myCursor.execute(sql, val)
-    db.commit()
+sql = "INSERT INTO orientationmoteur (position) VALUES (%s)"
+myCursor.execute(sql, val)
+db.commit()
  
-except KeyboardInterrupt:
-    print("Arrêt du programme")
  
-finally:
-    pwm.stop()
-    GPIO.cleanup()
-    db.close()
+pwm.stop()
+GPIO.cleanup()
+db.close()
