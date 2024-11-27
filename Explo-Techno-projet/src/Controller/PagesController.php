@@ -70,4 +70,10 @@ class PagesController extends AppController
             throw new NotFoundException();
         }
     }
+
+    public function testAlanVestis() 
+    {
+        $username = 'ALAN le goat';
+        $this->set(compact('username'));
+    }
 }

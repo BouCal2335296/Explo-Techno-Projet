@@ -1,6 +1,6 @@
 <div class="div-arrondi">
     <h2>Connexion</h2>
-    <form action=".../src/Controller/ConnexionController.php" method=post>
+    <form action="action.php" method=post>
         <label for=Courriel>Adresse Mail :</label>
         <input type=email name=Courriel class=text_zone required>
         <label for=Password>Mot de passe :</label>

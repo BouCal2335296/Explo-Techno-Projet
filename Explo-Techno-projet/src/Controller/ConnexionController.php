@@ -1,8 +1,8 @@
 <?php
 namespace App\Controller;
 
-$courriel = $_POST["Courriel"];
-$courriel = $_POST["PassWord"];
+//$courriel = $_POST["Courriel"];
+//$courriel = $_POST["PassWord"];
 
 class ConnexionController extends AppController
 {

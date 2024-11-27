@@ -2118,3 +2118,601 @@ Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Tech
 Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
 [main]
 
+2024-11-26 18:17:14 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1049] Unknown database 'stationsolaire' in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Database\Driver.php on line 194
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1049] Unknown database \'stationsolaire\'',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:51
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:53
+- CORE\src\Database\Connection.php:366
+- CORE\src\ORM\Table.php:545
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:201
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1759
+- CORE\src\ORM\Table.php:1296
+- APP/Controller\ReleverController.php:20
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'stationsolaire' in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Database\Driver.php on line 187
+Stack Trace:
+- CORE\src\Database\Driver.php:187
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:192
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:51
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:53
+- CORE\src\Database\Connection.php:366
+- CORE\src\ORM\Table.php:545
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:201
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1759
+- CORE\src\ORM\Table.php:1296
+- APP/Controller\ReleverController.php:20
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Relever
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+2024-11-26 18:17:20 warning: Undefined array key "Courriel"
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 576
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 427
+Composer\Autoload\ClassLoader->loadClass() [internal], line ??
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 162
+Cake\Core\App::_classExistsInBase() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 69
+Cake\Core\App::className() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 324
+Cake\Controller\ControllerFactory->getControllerClass() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 75
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 360
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:17:20 warning: Undefined array key "PassWord"
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 576
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 427
+Composer\Autoload\ClassLoader->loadClass() [internal], line ??
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 162
+Cake\Core\App::_classExistsInBase() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 69
+Cake\Core\App::className() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 324
+Cake\Controller\ControllerFactory->getControllerClass() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 75
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 360
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:17:20 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:17:20 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 163
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:17:20 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:17:20 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:22:20 warning: Undefined array key "Courriel"
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 576
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 427
+Composer\Autoload\ClassLoader->loadClass() [internal], line ??
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 162
+Cake\Core\App::_classExistsInBase() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 69
+Cake\Core\App::className() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 324
+Cake\Controller\ControllerFactory->getControllerClass() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 75
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 360
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:22:20 warning: Undefined array key "PassWord"
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 576
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 427
+Composer\Autoload\ClassLoader->loadClass() [internal], line ??
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 162
+Cake\Core\App::_classExistsInBase() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 69
+Cake\Core\App::className() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 324
+Cake\Controller\ControllerFactory->getControllerClass() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 75
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 360
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:22:21 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:22:21 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 163
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:22:21 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:22:21 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:48:55 warning: Undefined array key "Courriel"
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Historiquerelever
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 576
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 427
+Composer\Autoload\ClassLoader->loadClass() [internal], line ??
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 162
+Cake\Core\App::_classExistsInBase() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 69
+Cake\Core\App::className() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 324
+Cake\Controller\ControllerFactory->getControllerClass() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 75
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 360
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:48:55 warning: Undefined array key "PassWord"
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Historiquerelever
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 576
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\composer\ClassLoader.php, line 427
+Composer\Autoload\ClassLoader->loadClass() [internal], line ??
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 162
+Cake\Core\App::_classExistsInBase() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Core\App.php, line 69
+Cake\Core\App::className() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 324
+Cake\Controller\ControllerFactory->getControllerClass() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 75
+Cake\Controller\ControllerFactory->create() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 360
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:48:55 warning: Unable to emit headers. Headers sent in file=C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Historiquerelever
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:48:55 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Historiquerelever
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 163
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:48:55 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Historiquerelever
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:48:55 warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/Historiquerelever
+Trace:
+C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
+[main]
+
+2024-11-26 18:54:50 error: [Cake\Http\Exception\MissingControllerException] Controller class `Utilisateurs` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Utilisateurs',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Utilisateurs
+2024-11-26 19:18:01 error: [ParseError] syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\src\Model\Entity\Utilisateur.php on line 41
+Stack Trace:
+- ROOT\vendor\composer\ClassLoader.php:427
+- [internal]:??
+- CORE\src\ORM\Table.php:734
+- CORE\src\ORM\ResultSetFactory.php:83
+- CORE\src\ORM\ResultSetFactory.php:51
+- CORE\src\ORM\Query\SelectQuery.php:1584
+- CORE\src\ORM\Query\SelectQuery.php:384
+- CORE\src\Datasource\Paging\NumericPaginator.php:293
+- CORE\src\Datasource\Paging\NumericPaginator.php:225
+- CORE\src\Controller\Controller.php:884
+- APP/Controller\UtilisateurController.php:21
+- CORE\src\Controller\Controller.php:503
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Utilisateur
+2024-11-26 19:18:01 error: [ParseError] syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\src\Model\Entity\Utilisateur.php on line 41
+Stack Trace:
+- ROOT\vendor\composer\ClassLoader.php:427
+- [internal]:??
+- CORE\src\ORM\Table.php:734
+- CORE\src\ORM\Table.php:3287
+- CORE\src\Error\Debugger.php:723
+- CORE\src\Error\Debugger.php:650
+- CORE\src\Error\Debugger.php:724
+- CORE\src\Error\Debugger.php:650
+- CORE\src\Error\Debugger.php:595
+- CORE\src\Error\Debugger.php:395
+- CORE\src\Error\Renderer\WebExceptionRenderer.php:268
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:149
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /Utilisateur
+2024-11-26 19:27:34 error: [Cake\Controller\Exception\MissingActionException] Action `PagesController::tesgt()` could not be found, or is not accessible. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'tesgt',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /test
+2024-11-26 19:45:53 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\test_alan_vestis.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\templates\Pages\test_alan_vestis.php`
+- `C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\templates\Pages\test_alan_vestis.php`
+ in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Pages\\test_alan_vestis.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\Explo-Techno-Projet\\Explo-Techno-projet\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\Explo-Techno-Projet\\Explo-Techno-projet\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:710
+- CORE\src\Controller\Controller.php:514
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /testAlanVestis
+2024-11-26 19:48:22 error: [Cake\Http\Exception\MissingControllerException] Controller class `USERS` could not be found. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'USERS',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /USERS
+2024-11-26 19:54:58 error: [Cake\Controller\Exception\MissingActionException] Action `UtilisateurController::exploTechnoProjet()` could not be found, or is not accessible. in C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Controller\Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UtilisateurController',
+  'action' => 'exploTechnoProjet',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:118
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:69
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /utilisateur/Explo-Techno-projet/Connexion
+Referer URL: http://localhost/Explo-Techno-Projet/Explo-Techno-projet/utilisateur/edit/1
