@@ -25,7 +25,6 @@
                     echo $this->Form->control('nomUtilisateur');
                     echo $this->Form->control('prenomUtilisateur');
                     echo $this->Form->control('courriel');
-                    echo $this->Form->control('sel');
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>
