@@ -73,7 +73,6 @@ class UtilisateurTable extends Table
             ->notEmptyString('mdp');
 
         $validator
-            ->uuid('sel')
             ->requirePresence('sel', 'create')
             ->notEmptyString('sel');
 

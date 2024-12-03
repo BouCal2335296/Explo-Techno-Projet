@@ -6,6 +6,7 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 use Cake\Auth\DefaultPasswordHasher;
 
+
 /**
  * Utilisateur Entity
  *
@@ -33,5 +34,9 @@ class Utilisateur extends Entity
         'courriel' => true,
         'mdp' => true,
         'sel' => true,
+    ];
+    protected array $_hidden = [
+        'mdp',
+        'sel'
     ];
 }
