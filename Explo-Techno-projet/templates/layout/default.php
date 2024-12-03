@@ -39,12 +39,12 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <a href="../Explo-Techno-projet/Accueil"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
-            <a rel="noopener" href="../Explo-Techno-projet/Relever">Relever</a>
-            <a rel="noopener" href="../Explo-Techno-projet/Historiquerelever">Historique</a>
+            <a rel="noopener" href="<?= $this->Url->build('/Relever') ?>">Relever</a>
+            <a rel="noopener" href="<?= $this->Url->build('/Historiquerelever') ?>">Historique</a>
         </div>
         <div class="top-nav-links">
-            <a rel="noopener" href="../Explo-Techno-projet/Connexion">Connexion</a>
-            <a rel="noopener" href="../Explo-Techno-projet/Inscription">Inscription</a>
+            <a rel="noopener" href="<?= $this->Url->build('/Connexion') ?>">Connexion</a>
+            <a rel="noopener" href="<?= $this->Url->build('/utilisateur/add') ?>">Inscription</a>
         </div>
     </nav>
     <main class="main">

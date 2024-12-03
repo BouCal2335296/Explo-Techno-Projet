@@ -31,6 +31,10 @@
                     <td><?= h($utilisateur->courriel) ?></td>
                 </tr>
                 <tr>
+                    <th><?= __('Mdp') ?></th>
+                    <td><?= h($utilisateur->mdp) ?></td>
+                </tr>
+                <tr>
                     <th><?= __('Sel') ?></th>
                     <td><?= h($utilisateur->sel) ?></td>
                 </tr>
