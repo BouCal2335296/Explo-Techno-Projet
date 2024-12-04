@@ -4228,3 +4228,577 @@ Stack Trace:
 Request URL: /orientationmoteur/lancer-moteur
 Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Orientationmoteur
 Client IP: 127.0.0.1
+2024-12-04 15:26:29 error: [Cake\View\Exception\MissingTemplateException] Template file `Accueil/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/Accueil/index.php`
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/Accueil/index.php`
+ in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Accueil/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/',
+    1 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil
+Client IP: 127.0.0.1
+2024-12-04 15:26:39 error: [Cake\Http\Exception\MissingControllerException] Controller class `Acceuil` could not be found. in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Acceuil',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Acceuil
+Client IP: 127.0.0.1
+2024-12-04 15:26:53 error: [Cake\View\Exception\MissingTemplateException] Template file `Accueil/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/Accueil/index.php`
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/Accueil/index.php`
+ in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Accueil/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/',
+    1 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil
+Client IP: 127.0.0.1
+2024-12-04 15:31:32 error: [Cake\View\Exception\MissingTemplateException] Template file `Accueil/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/Accueil/index.php`
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/Accueil/index.php`
+ in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Accueil/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/',
+    1 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil/index
+Client IP: 127.0.0.1
+2024-12-04 15:31:42 error: [Cake\View\Exception\MissingTemplateException] Template file `Accueil/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/Accueil/index.php`
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/Accueil/index.php`
+ in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Accueil/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/',
+    1 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil/Index
+Client IP: 127.0.0.1
+2024-12-04 15:49:35 error: [Cake\Controller\Exception\MissingActionException] Action `AccueilController::index.php()` could not be found, or is not accessible. in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'AccueilController',
+  'action' => 'index.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil/Index.php
+Client IP: 127.0.0.1
+2024-12-04 15:52:27 error: [Cake\Controller\Exception\MissingActionException] Action `AccueilController::index.php()` could not be found, or is not accessible. in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'AccueilController',
+  'action' => 'index.php',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil/index.php
+Client IP: 127.0.0.1
+2024-12-04 16:00:32 warning: Undefined variable $routes
+Request URL: /Accueil/index.php
+Client IP: 127.0.0.1
+Trace:
+Cake\Http\BaseApplication->{closure}() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php, line 941
+Cake\Routing\RouteBuilder->scope() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/config/routes.php, line 53
+Cake\Http\BaseApplication->{closure}() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 219
+Cake\Http\BaseApplication->routes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 71
+Cake\Routing\Middleware\RoutingMiddleware->loadRoutes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 89
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 78
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:00:32 error: [Error] Call to a member function connect() on null in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/config/routes.php on line 60
+Stack Trace:
+- CORE/src/Routing/RouteBuilder.php:941
+- ROOT/config/routes.php:53
+- CORE/src/Http/BaseApplication.php:219
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:71
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:89
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil/index.php
+Client IP: 127.0.0.1
+2024-12-04 16:00:32 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /Accueil/index.php
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:00:32 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Accueil/index.php
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:00:32 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Accueil/index.php
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:00:32 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Accueil/index.php
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:00:33 warning: Undefined variable $routes
+Request URL: /debug-kit/toolbar/b8efb4da-84c3-45b6-98c4-810a1cef6136
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Accueil/index.php
+Client IP: 127.0.0.1
+Trace:
+Cake\Http\BaseApplication->{closure}() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php, line 941
+Cake\Routing\RouteBuilder->scope() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/config/routes.php, line 53
+Cake\Http\BaseApplication->{closure}() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 219
+Cake\Http\BaseApplication->routes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 71
+Cake\Routing\Middleware\RoutingMiddleware->loadRoutes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 89
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:00:33 error: [Error] Call to a member function connect() on null in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/config/routes.php on line 60
+Stack Trace:
+- CORE/src/Routing/RouteBuilder.php:941
+- ROOT/config/routes.php:53
+- CORE/src/Http/BaseApplication.php:219
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:71
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:89
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /debug-kit/toolbar/b8efb4da-84c3-45b6-98c4-810a1cef6136
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Accueil/index.php
+Client IP: 127.0.0.1
+2024-12-04 16:00:33 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /debug-kit/toolbar/b8efb4da-84c3-45b6-98c4-810a1cef6136
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Accueil/index.php
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:00:33 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /debug-kit/toolbar/b8efb4da-84c3-45b6-98c4-810a1cef6136
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Accueil/index.php
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:00:33 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /debug-kit/toolbar/b8efb4da-84c3-45b6-98c4-810a1cef6136
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Accueil/index.php
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:01:12 warning: Undefined variable $routes
+Request URL: /Orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+Cake\Http\BaseApplication->{closure}() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php, line 941
+Cake\Routing\RouteBuilder->scope() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/config/routes.php, line 53
+Cake\Http\BaseApplication->{closure}() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 219
+Cake\Http\BaseApplication->routes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 71
+Cake\Routing\Middleware\RoutingMiddleware->loadRoutes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 89
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:01:12 error: [Error] Call to a member function connect() on null in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/config/routes.php on line 60
+Stack Trace:
+- CORE/src/Routing/RouteBuilder.php:941
+- ROOT/config/routes.php:53
+- CORE/src/Http/BaseApplication.php:219
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:71
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:89
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Orientationmoteur
+Client IP: 127.0.0.1
+2024-12-04 16:01:12 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /Orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:01:12 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:01:12 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:01:12 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:01:13 warning: Undefined variable $routes
+Request URL: /debug-kit/toolbar/5e8a25ae-3b9e-4953-8f0f-984f9a48ce97
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+Cake\Http\BaseApplication->{closure}() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php, line 941
+Cake\Routing\RouteBuilder->scope() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/config/routes.php, line 53
+Cake\Http\BaseApplication->{closure}() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 219
+Cake\Http\BaseApplication->routes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 71
+Cake\Routing\Middleware\RoutingMiddleware->loadRoutes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 89
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:01:13 error: [Error] Call to a member function connect() on null in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/config/routes.php on line 60
+Stack Trace:
+- CORE/src/Routing/RouteBuilder.php:941
+- ROOT/config/routes.php:53
+- CORE/src/Http/BaseApplication.php:219
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:71
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:89
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /debug-kit/toolbar/5e8a25ae-3b9e-4953-8f0f-984f9a48ce97
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Orientationmoteur
+Client IP: 127.0.0.1
+2024-12-04 16:01:13 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /debug-kit/toolbar/5e8a25ae-3b9e-4953-8f0f-984f9a48ce97
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:01:13 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /debug-kit/toolbar/5e8a25ae-3b9e-4953-8f0f-984f9a48ce97
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:01:13 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /debug-kit/toolbar/5e8a25ae-3b9e-4953-8f0f-984f9a48ce97
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
