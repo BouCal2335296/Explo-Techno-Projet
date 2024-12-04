@@ -37,7 +37,7 @@ class HistoriquereleverTable extends Table
     {
         parent::initialize($config);
 
-        $this->setTable('historiquerelever');
+        $this->setTable('historiqueRelever');
         $this->setDisplayField(['id', 'noPosition']);
         $this->setPrimaryKey(['id', 'noPosition']);
     }

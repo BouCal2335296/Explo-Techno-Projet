@@ -17,7 +17,7 @@ class HistoriquereleverController extends AppController
      */
     public function index()
     {
-        $query = $this->historiqueRelever->find();
+        $query = $this->Historiquerelever->find();
         $historiquerelever = $this->paginate($query);
 
         $this->set(compact('historiquerelever'));
