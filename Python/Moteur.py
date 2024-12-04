@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 import time
+import datetime
 import mysql.connector
 import smbus
 
@@ -24,25 +25,7 @@ def read(chn): #channel
 	except Exception as e:
 		print ("Address: %s" % address)
 		print (e)
-	return bus.read_byte(address)
-
-def ecrireValeurCapteur(val):
-	try:
-		temp = val # move string value to temp
-		temp = int(temp) # change string to integer
-		# print temp to see on terminal else comment out
-		bus.write_byte_data(address, 0x40, temp)
-	except Exception as e:
-		print ("Error: Device address: 0x%2X" % address)
-		print (e)
-
-## à dé^lacer dans le try catch --- permet d'avoir le relever du capteur
-if __name__ == "__main__":
-	setup(0x48)
-	print ('AIN0 = ', read(0))
-	tmp = read(0)
-	tmp = tmp*(255-125)/255+125 # LED won't light up below 125, so convert '0-255' to '125-255'
-	ecrireValeurCapteur(tmp)
+	return bus.read_byte(address)	
 
 #######################################################################################################################
 
@@ -71,36 +54,50 @@ pwm.start(0)  # Démarre avec un rapport cyclique de 0 (ne bouge pas le moteur)
 def tourner_A():
     pwm.ChangeDutyCycle(7.5)  # Ajustez la valeur pour la rotation à droite
     time.sleep(1)
+    pwm.ChangeDutyCycle(0)  # Ajustez la valeur pour la rotation à droite
+
 
 def tourner_RAZ():
     pwm.ChangeDutyCycle(7.5)  # Ajustez la valeur pour la rotation à droite
-    time.sleep(1)
+    time.sleep(2)
  
 
-try:
-    val = 0
-    
-    
-    tourner_A()
-    time.sleep(1)
-    #relever = résultat du capteur
 
-    if (val < relever):
-        val = relever
-    
+val = 9999
+tour = 0
+position = 0
+i = 0
+while i < 3:
+	setup(0x48)
+	relever = read(0)
+	print ('Relevé = ', read(0))
+	time.sleep(2)
+	tour += 1
 
-    tourner_RAZ()
-    time.sleep(1)
+   	#relever = résultat du capteur
+	if relever < val:
+		val = relever
+		position = tour
+
+	tourner_A()
+	i += 1
+
+tourner_RAZ()
+time.sleep(1)
+date = datetime.datetime.now()
+
+sql = "DELETE FROM orientationMoteur WHERE noPosition=1"
+myCursor.execute(sql)
+sql1 = "ALTER TABLE orientationMoteur AUTO_INCREMENT = 0"
+myCursor.execute(sql1)
+sql2 = "INSERT INTO orientationMoteur (position, relever) VALUES (%s, %s)"
+myCursor.execute(sql2, (position, val,))
+sql3 = "INSERT INTO historiqueRelever (noPosition, date) VALUES (%s, %s)"
+myCursor.execute(sql3, (position, date))
 
 
-    sql = "INSERT INTO orientationmoteur (position) VALUES (%s)"
-    myCursor.execute(sql, val)
-    db.commit()
+db.commit()
  
-except KeyboardInterrupt:
-    print("Arrêt du programme")
- 
-finally:
-    pwm.stop()
-    GPIO.cleanup()
-    db.close()
+pwm.stop()
+GPIO.cleanup()
+db.close()

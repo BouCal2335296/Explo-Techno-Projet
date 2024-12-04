@@ -37,7 +37,7 @@ class OrientationmoteurTable extends Table
     {
         parent::initialize($config);
 
-        $this->setTable('orientationmoteur');
+        $this->setTable('orientationMoteur');
         $this->setDisplayField('noPosition');
         $this->setPrimaryKey('noPosition');
     }

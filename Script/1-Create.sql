@@ -16,14 +16,14 @@ CREATE TABLE relever
 
 CREATE TABLE orientationMoteur
 (
-    noPosition          INT                 AUTO_INCREMENT            NOT NULL            PRIMARY KEY,
-    position            INT                 NOT NULL
+    noPosition          INT                 AUTO_INCREMENT          NOT NULL            PRIMARY KEY,
+    position            INT                 NOT NULL,
+    relever             INT                 NOT NULL
 );
 
 CREATE TABLE historiqueRelever
 (
-    id                  INT                 NOT NULL,
+    id                  INT                 AUTO_INCREMENT          NOT NULL            PRIMARY KEY,
     noPosition          INT                 NOT NULL,
-    date                DATETIME            NOT NULL,
-    PRIMARY KEY(id, noPosition)
+    date                DATETIME            NOT NULL
 );

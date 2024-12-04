@@ -26,3 +26,171 @@ Cake\Http\Runner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\
 Cake\Http\Server->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\webroot\index.php, line 37
 [main]
 
+2024-12-03 21:37:14 notice: Undefined property `HistoriquereleverController::$HistoriqueRelever` in `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php` on line 20
+Request URL: /Historiquerelever
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 316
+Cake\Controller\Controller->__get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php, line 20
+App\Controller\HistoriquereleverController->index() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-03 21:38:23 notice: Undefined property `HistoriquereleverController::$historiqueRelever` in `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php` on line 20
+Request URL: /Historiquerelever
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 316
+Cake\Controller\Controller->__get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php, line 20
+App\Controller\HistoriquereleverController->index() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-03 21:38:38 notice: Undefined property `HistoriquereleverController::$HistoriqueRelever` in `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php` on line 20
+Request URL: /Historiquerelever
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 316
+Cake\Controller\Controller->__get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php, line 20
+App\Controller\HistoriquereleverController->index() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-03 21:39:22 notice: Undefined property `HistoriquereleverController::$historiqueRelever` in `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php` on line 20
+Request URL: /Historiquerelever
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 316
+Cake\Controller\Controller->__get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php, line 20
+App\Controller\HistoriquereleverController->index() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 14:10:21 notice: Undefined property `HistoriquereleverController::$historiqueRelever` in `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php` on line 20
+Request URL: /Historiquerelever
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 316
+Cake\Controller\Controller->__get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php, line 20
+App\Controller\HistoriquereleverController->index() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 14:11:40 notice: Undefined property `HistoriquereleverController::$HistoriqueRelever` in `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php` on line 20
+Request URL: /Historiquerelever
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 316
+Cake\Controller\Controller->__get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/src/Controller/HistoriquereleverController.php, line 20
+App\Controller\HistoriquereleverController->index() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
