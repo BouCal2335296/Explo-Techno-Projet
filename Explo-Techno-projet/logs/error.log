@@ -4802,3 +4802,803 @@ Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Tech
 Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
 [main]
 
+2024-12-04 16:16:18 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 86
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/CommonQueryTrait.php, line 48
+Cake\ORM\Query\SelectQuery->addDefaultTypes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php, line 201
+Cake\ORM\Query\SelectQuery->__construct() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/QueryFactory.php, line 34
+Cake\ORM\Query\QueryFactory->select() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 1759
+Cake\ORM\Table->selectQuery() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/SqlTraceTrait.php, line 36
+DebugKit\Model\Table\RequestsTable->selectQuery() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php, line 119
+DebugKit\Model\Table\RequestsTable->gc() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 277
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:16:18 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 93
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/CommonQueryTrait.php, line 48
+Cake\ORM\Query\SelectQuery->addDefaultTypes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php, line 201
+Cake\ORM\Query\SelectQuery->__construct() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/QueryFactory.php, line 34
+Cake\ORM\Query\QueryFactory->select() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 1759
+Cake\ORM\Table->selectQuery() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/SqlTraceTrait.php, line 36
+DebugKit\Model\Table\RequestsTable->selectQuery() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php, line 119
+DebugKit\Model\Table\RequestsTable->gc() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 277
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:16:18 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 86
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/CommonQueryTrait.php, line 48
+Cake\ORM\Query\DeleteQuery->addDefaultTypes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/DeleteQuery.php, line 40
+Cake\ORM\Query\DeleteQuery->__construct() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/QueryFactory.php, line 67
+Cake\ORM\Query\QueryFactory->delete() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 1789
+Cake\ORM\Table->deleteQuery() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/SqlTraceTrait.php, line 52
+DebugKit\Model\Table\PanelsTable->deleteQuery() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Association.php, line 1170
+Cake\ORM\Association->__call() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php, line 132
+DebugKit\Model\Table\RequestsTable->gc() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 277
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:16:18 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 93
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/CommonQueryTrait.php, line 48
+Cake\ORM\Query\DeleteQuery->addDefaultTypes() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/DeleteQuery.php, line 40
+Cake\ORM\Query\DeleteQuery->__construct() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Query/QueryFactory.php, line 67
+Cake\ORM\Query\QueryFactory->delete() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 1789
+Cake\ORM\Table->deleteQuery() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/SqlTraceTrait.php, line 52
+DebugKit\Model\Table\PanelsTable->deleteQuery() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Association.php, line 1170
+Cake\ORM\Association->__call() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php, line 132
+DebugKit\Model\Table\RequestsTable->gc() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 277
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:16:18 warning: Unable to garbage collect requests table. This is probably due to concurrent requests.
+2024-12-04 16:16:18 warning: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Statement/Statement.php:146
+Stack trace:
+#0 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Statement/Statement.php(146): PDOStatement->execute(NULL)
+#1 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php(38): Cake\Database\Statement\Statement->execute(NULL)
+#2 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Driver.php(320): Cake\Database\Statement\SqliteStatement->execute(NULL)
+#3 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Driver.php(304): Cake\Database\Driver->executeStatement(Object(Cake\Database\Statement\SqliteStatement))
+#4 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Connection.php(267): Cake\Database\Driver->run(Object(Cake\ORM\Query\DeleteQuery))
+#5 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(71): Cake\Database\Connection->Cake\Database\{closure}()
+#6 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Connection.php(267): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Query.php(223): Cake\Database\Connection->run(Object(Cake\ORM\Query\DeleteQuery))
+#8 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php(134): Cake\Database\Query->execute()
+#9 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php(277): DebugKit\Model\Table\RequestsTable->gc()
+#10 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(67): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php(82): DebugKit\Middleware\DebugKitMiddleware->process(Object(Cake\Http\ServerRequest), Object(Cake\Http\Runner))
+#12 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php(60): Cake\Http\Runner->handle(Object(Cake\Http\ServerRequest))
+#13 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php(104): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(App\Application))
+#14 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+Next Cake\Database\Exception\QueryException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Driver.php:375
+Stack trace:
+#0 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Driver.php(322): Cake\Database\Driver->createQueryException(Object(PDOException), Object(Cake\Database\Statement\SqliteStatement), NULL)
+#1 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Driver.php(304): Cake\Database\Driver->executeStatement(Object(Cake\Database\Statement\SqliteStatement))
+#2 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Connection.php(267): Cake\Database\Driver->run(Object(Cake\ORM\Query\DeleteQuery))
+#3 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(71): Cake\Database\Connection->Cake\Database\{closure}()
+#4 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Connection.php(267): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#5 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Query.php(223): Cake\Database\Connection->run(Object(Cake\ORM\Query\DeleteQuery))
+#6 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php(134): Cake\Database\Query->execute()
+#7 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php(277): DebugKit\Model\Table\RequestsTable->gc()
+#8 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(67): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php(82): DebugKit\Middleware\DebugKitMiddleware->process(Object(Cake\Http\ServerRequest), Object(Cake\Http\Runner))
+#10 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php(60): Cake\Http\Runner->handle(Object(Cake\Http\ServerRequest))
+#11 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php(104): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(App\Application))
+#12 /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+2024-12-04 16:16:18 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 205
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:16:18 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 205
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 253
+Cake\I18n\TranslatorRegistry->createInstance() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 238
+Cake\I18n\TranslatorRegistry->_getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 208
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:16:18 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 209
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 253
+Cake\I18n\TranslatorRegistry->createInstance() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 238
+Cake\I18n\TranslatorRegistry->_getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 208
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:16:18 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 209
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:16:18 error: [Cake\Database\Exception\QueryException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Driver.php on line 375
+Stack Trace:
+- CORE/src/Database/Driver.php:322
+- CORE/src/Database/Driver.php:304
+- CORE/src/Database/Connection.php:267
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:267
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:636
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php:310
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:67
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 146
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:146
+- CORE/src/Database/Statement/SqliteStatement.php:38
+- CORE/src/Database/Driver.php:320
+- CORE/src/Database/Driver.php:304
+- CORE/src/Database/Connection.php:267
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:267
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:636
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php:310
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:67
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil
+Client IP: 127.0.0.1
+2024-12-04 16:16:19 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 240
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-04 16:16:19 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 240
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-04 16:16:19 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 240
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-04 16:17:27 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 86
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 660
+Cake\ORM\Table->getPrimaryKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 194
+Cake\ORM\Marshaller->one() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 2963
+Cake\ORM\Table->newEntity() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 288
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:17:27 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 93
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 660
+Cake\ORM\Table->getPrimaryKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 194
+Cake\ORM\Marshaller->one() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 2963
+Cake\ORM\Table->newEntity() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 288
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:17:27 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 86
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 660
+Cake\ORM\Table->getPrimaryKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 194
+Cake\ORM\Marshaller->one() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 2963
+Cake\ORM\Table->newEntity() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Association.php, line 1170
+Cake\ORM\Association->__call() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 300
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:17:27 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 93
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 660
+Cake\ORM\Table->getPrimaryKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 194
+Cake\ORM\Marshaller->one() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 2963
+Cake\ORM\Table->newEntity() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Association.php, line 1170
+Cake\ORM\Association->__call() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 300
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:17:27 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 205
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:17:27 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 205
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 253
+Cake\I18n\TranslatorRegistry->createInstance() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 238
+Cake\I18n\TranslatorRegistry->_getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 208
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:17:27 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 209
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 253
+Cake\I18n\TranslatorRegistry->createInstance() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 238
+Cake\I18n\TranslatorRegistry->_getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 208
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:17:27 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 209
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:17:27 error: [Cake\Database\Exception\QueryException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Driver.php on line 375
+Stack Trace:
+- CORE/src/Database/Driver.php:322
+- CORE/src/Database/Driver.php:304
+- CORE/src/Database/Connection.php:267
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:267
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:636
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php:310
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:67
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 146
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:146
+- CORE/src/Database/Statement/SqliteStatement.php:38
+- CORE/src/Database/Driver.php:320
+- CORE/src/Database/Driver.php:304
+- CORE/src/Database/Connection.php:267
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:267
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:636
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php:310
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:67
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil
+Client IP: 127.0.0.1
+2024-12-04 16:17:27 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 240
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-04 16:17:27 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 240
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-04 16:17:27 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 240
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-04 16:18:20 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 86
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 660
+Cake\ORM\Table->getPrimaryKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 194
+Cake\ORM\Marshaller->one() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 2963
+Cake\ORM\Table->newEntity() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 288
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:18:20 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 93
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 660
+Cake\ORM\Table->getPrimaryKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 194
+Cake\ORM\Marshaller->one() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 2963
+Cake\ORM\Table->newEntity() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 288
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:18:20 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 86
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 660
+Cake\ORM\Table->getPrimaryKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 194
+Cake\ORM\Marshaller->one() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 2963
+Cake\ORM\Table->newEntity() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Association.php, line 1170
+Cake\ORM\Association->__call() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 300
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:18:20 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 93
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 546
+Cake\ORM\Table->getSchema() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 660
+Cake\ORM\Table->getPrimaryKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 194
+Cake\ORM\Marshaller->one() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Table.php, line 2963
+Cake\ORM\Table->newEntity() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/ORM/Association.php, line 1170
+Cake\ORM\Association->__call() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 300
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:18:20 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 205
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:18:20 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 205
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 253
+Cake\I18n\TranslatorRegistry->createInstance() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 238
+Cake\I18n\TranslatorRegistry->_getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 208
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:18:20 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 209
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 253
+Cake\I18n\TranslatorRegistry->createInstance() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 238
+Cake\I18n\TranslatorRegistry->_getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 208
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:18:20 warning: SplFileInfo::openFile(/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/tmp/cache/persistent/myapp_cake_translations_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 209
+Cake\I18n\TranslatorRegistry->get() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/I18n.php, line 160
+Cake\I18n\I18n::getTranslator() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/functions.php, line 87
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/ToolbarService.php, line 304
+DebugKit\ToolbarService->saveData() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-04 16:18:20 error: [Cake\Database\Exception\QueryException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Driver.php on line 375
+Stack Trace:
+- CORE/src/Database/Driver.php:322
+- CORE/src/Database/Driver.php:304
+- CORE/src/Database/Connection.php:267
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:267
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:636
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php:310
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:67
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 146
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:146
+- CORE/src/Database/Statement/SqliteStatement.php:38
+- CORE/src/Database/Driver.php:320
+- CORE/src/Database/Driver.php:304
+- CORE/src/Database/Connection.php:267
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:267
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:636
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php:310
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:67
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil
+Client IP: 127.0.0.1
+2024-12-04 16:18:20 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 240
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-04 16:18:20 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 240
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-04 16:18:20 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /Accueil
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 240
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
