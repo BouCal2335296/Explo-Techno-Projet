@@ -5,7 +5,6 @@
  */
 ?>
 <div class="orientationmoteur index content">
-    <?= $this->Html->link(__('New Orientationmoteur'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Orientationmoteur') ?></h3>
     <div class="table-responsive">
         <table>
@@ -13,7 +12,7 @@
                 <tr>
                     <th><?= $this->Paginator->sort('noPosition') ?></th>
                     <th><?= $this->Paginator->sort('position') ?></th>
-                    <th class="actions"><?= __('Actions') ?></th>
+                    <th class="actions"><?= __('Relever') ?></th>
                 </tr>
             </thead>
             <tbody>
@@ -21,11 +20,8 @@
                 <tr>
                     <td><?= $this->Number->format($orientationmoteur->noPosition) ?></td>
                     <td><?= $this->Number->format($orientationmoteur->position) ?></td>
-                    <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $orientationmoteur->noPosition]) ?>
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $orientationmoteur->noPosition]) ?>
-                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $orientationmoteur->noPosition], ['confirm' => __('Are you sure you want to delete # {0}?', $orientationmoteur->noPosition)]) ?>
-                    </td>
+                    <td><?= $this->Number->format($orientationmoteur->relever) ?></td>
+                    
                 </tr>
                 <?php endforeach; ?>
             </tbody>
