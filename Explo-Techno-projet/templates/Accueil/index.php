@@ -6,5 +6,10 @@
         <div class="explo-techno-footer">
             &copy; 2024 Projet d'Exploration Technologique
         </div>
+        <button><?= $this->Html->link(
+        'Lancer le moteur',
+        ['controller' => 'Accueil', 'action' => 'lancerMoteur'],
+        ['class' => 'btn btn-primary']
+        ) ?></button>
     </div>
 </div>

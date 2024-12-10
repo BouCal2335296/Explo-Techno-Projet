@@ -6466,3 +6466,244 @@ Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Tech
 Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
 [main]
 
+2024-12-10 19:36:25 error: [Cake\Http\Exception\MissingControllerException] Controller class `Accuei` could not be found. in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Accuei',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accuei
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+2024-12-10 19:38:25 error: [Cake\View\Exception\MissingTemplateException] Template file `Accueil/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/Accueil/index.php`
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/Accueil/index.php`
+ in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Accueil/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/',
+    1 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Relever
+Client IP: 127.0.0.1
+2024-12-10 19:38:39 error: [Cake\Http\Exception\MissingControllerException] Controller class `Accuei` could not be found. in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Accuei',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accuei
+Client IP: 127.0.0.1
+2024-12-10 19:38:46 error: [Cake\View\Exception\MissingTemplateException] Template file `Accueil/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/Accueil/index.php`
+- `/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/Accueil/index.php`
+ in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Accueil/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/templates/',
+    1 => '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- CORE/src/View/View.php:782
+- CORE/src/Controller/Controller.php:710
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /Accueil
+Client IP: 127.0.0.1
+2024-12-10 19:58:11 error: [Cake\Controller\Exception\MissingActionException] Action `OrientationmoteurController::lancerMoteur()` could not be found, or is not accessible. in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'OrientationmoteurController',
+  'action' => 'lancerMoteur',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Client IP: 127.0.0.1
+2024-12-10 19:58:24 error: [Cake\Controller\Exception\MissingActionException] Action `OrientationmoteurController::lancerMoteur()` could not be found, or is not accessible. in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'OrientationmoteurController',
+  'action' => 'lancerMoteur',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Client IP: 127.0.0.1
+2024-12-10 19:59:30 error: [Cake\Http\Exception\MissingControllerException] Controller class `AccueilController` could not be found. in /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'AccueilController',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /accueil-controller/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/Accueil
+Client IP: 127.0.0.1

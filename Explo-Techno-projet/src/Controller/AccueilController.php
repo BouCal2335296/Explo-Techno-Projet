@@ -8,16 +8,10 @@ class AccueilController extends AppController
     {
         
     }
-
-    public function lancerScript()
+public function lancerMoteur()
     {
-        // Chemin complet vers le script Python
-        $scriptPath = '/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Python/Moteur.py';
+        $output = shell_exec("sudo python /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/Moteur.py 2>&1");
+        return $this->redirect(['controller' => 'Orientationmoteur', 'action' => 'index']);
 
-        // Exécutez le script en ligne de commande
-        $output = shell_exec("/usr/bin/python3" . escapeshellarg($scriptPath) . " 2>&1");
-
-        // Affichez ou retournez le résultat
-        $this->set('output', $output);
     }
 }

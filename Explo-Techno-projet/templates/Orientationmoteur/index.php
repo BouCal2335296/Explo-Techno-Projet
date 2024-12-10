@@ -6,11 +6,6 @@
 ?>
 <div class="orientationmoteur index content">
     <h3><?= __('Orientationmoteur') ?></h3>
-    <button><?= $this->Html->link(
-    'Lancer le moteur',
-    ['controller' => 'Orientationmoteur', 'action' => 'lancerMoteur'],
-    ['class' => 'btn btn-primary']
-) ?></button>
     <div class="table-responsive">
         <table>
             <thead>

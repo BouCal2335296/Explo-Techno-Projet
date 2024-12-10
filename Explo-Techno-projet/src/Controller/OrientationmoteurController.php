@@ -22,11 +22,4 @@ class OrientationmoteurController extends AppController
 
         $this->set(compact('orientationmoteur'));
     }
-
-    public function lancerMoteur()
-    {
-        $output = shell_exec("sudo python /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/Moteur.py 2>&1");
-        return $this->redirect(['controller' => 'Orientationmoteur', 'action' => 'index']);
-
-    }
 }
