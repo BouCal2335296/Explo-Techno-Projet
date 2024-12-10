@@ -45,8 +45,11 @@ body {
 
 .top-nav-links,
 .side-nav,
-h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center; /* Aligne verticalement le contenu */
+    gap: 0.5rem; /* Ajoute de l'espace entre les éléments */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,6 +74,10 @@ a:active {
 th a,
 .actions a {
     color: var(--color-lightgray);
+}
+
+.top-nav-links p {
+    margin: 0; /* Supprime les marges par défaut du paragraphe */
 }
 
 .side-nav a:hover,
@@ -309,4 +316,54 @@ label
     width: 40%;
     padding: 20px; /* Espacement intérieur */
     margin: 20px; /* Espacement autour du div */
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.explo-techno-page {
+    font-family: "Raleway", sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.explo-techno-container {
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+.explo-techno-title {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.explo-techno-text {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.explo-techno-image {
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.explo-techno-footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #777;
 }

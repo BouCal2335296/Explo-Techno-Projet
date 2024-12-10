@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace App\Controller;
 use Cake\Utility\Text;
+use Cake\Http\Session;
 
 /**
  * Utilisateur Controller
@@ -88,7 +89,7 @@ class UtilisateurController extends AppController
     }*/
 
 
-    public function add()
+    public function inscription()
     {
         $utilisateur = $this->Utilisateur->newEmptyEntity();
 
@@ -97,11 +98,11 @@ class UtilisateurController extends AppController
             $utilisateur = $this->Utilisateur->patchEntity($utilisateur, $this->request->getData());
             $motDePasse = $this->request->getData('mdp'); // Assurez-vous que le champ du mot de passe s'appelle 'mdp' dans le formulaire
 
-            // Générer un sel aléatoire (UUID)
-            $sel = Text::uuid();
+            // Générer un sel aléatoire
+            $sel = bin2hex(random_bytes(6)); 
 
             // Hacher le mot de passe avec le sel
-            $motDePasseHache = password_hash($motDePasse . $sel, PASSWORD_BCRYPT);  // Le sel est ajouté au mot de passe avant de le hacher
+            $motDePasseHache = password_hash($motDePasse, PASSWORD_BCRYPT);  // Le sel est ajouté au mot de passe avant de le hacher
 
             // Assigner le mot de passe haché et le sel à l'entité
             $utilisateur->mdp = $motDePasseHache;
@@ -109,6 +110,7 @@ class UtilisateurController extends AppController
 
             // Sauvegarder l'utilisateur avec le mot de passe haché et le sel
             if ($this->Utilisateur->save($utilisateur)) {
+                //autoLogin($utilisateur);
                 $this->Flash->success(__('Utilisateur ajouté avec succès.'));
                 return $this->redirect(['controller' => 'Accueil', 'action' => 'index']);
             }
@@ -117,6 +119,65 @@ class UtilisateurController extends AppController
 
         $this->set(compact('utilisateur'));
     }
+    
+    public function connexion()
+    {
+       $utilisateur = $this->Utilisateur->newEmptyEntity();
+       
+       if ($this->request->is('post')) {
+           $utilisateur = $this->Utilisateur->findByCourriel($this->request->getData('courriel'))->first();
+       
+           if ($utilisateur) {
+                // Récupérer le mot de passe soumis
+                $motDePasseForm = $this->request->getData('mdp'); // Mot de passe saisi par l'utilisateur
+                $mdpBd = $utilisateur->mdp;
+               
+                // Vérifier si le mot de passe saisi correspond au hachage stocké en base de données
+                if (password_verify($motDePasseForm, $mdpBd)) {
+                    // Si la vérification réussit, connecter l'utilisateur
+                    $this->request->getSession()->write('User.id', $utilisateur->noUtilisateur);
+                    $this->request->getSession()->write('User.nom', $utilisateur->nomUtilisateur);
+                    $this->request->getSession()->write('User.prenom', $utilisateur->prenomUtilisateur);
+
+                    return $this->redirect(['controller' => 'Accueil', 'action' => 'index']);
+                } else 
+                {
+                    // Si la vérification échoue
+                    $this->Flash->error(__('Identifiants incorrects.'));
+                }
+            } else {
+                $this->Flash->error(__('Utilisateur non trouvé.'));
+            }
+        }
+        $this->set(compact('utilisateur'));
+    }
+
+    
+/*
+    public function autoLogin($utilisateur = null)
+    {
+        if ($utilisateur != null) 
+        {
+            // Récupérer le sel et vérifier le mot de passe
+            $sel = $this->request->getData('sel'); // Récupérer le sel de l'utilisateur
+            $motDePasse = $this->request->getData('mdp'); // Récupérer le mot de passe de l'utilisateur
+            
+            // Ajouter le sel au mot de passe et vérifier avec password_verify()
+            if (password_verify($motDePasse . $sel, $utilisateur->mdp)) 
+            {
+                $this->Auth->setUser($utilisateur);
+                return $this->redirect(['controller' => 'Accueil', 'action' => 'index']);
+            }
+            $this->Flash->error(__('Identifiants incorrects.'));
+        } 
+        else 
+        {
+            $this->Flash->error(__('Utilisateur non trouvé.'));
+        }
+    }
+*/
+
+    
 
 
 

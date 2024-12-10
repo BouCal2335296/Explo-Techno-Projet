@@ -4,21 +4,12 @@
  * @var \App\Model\Entity\Utilisateur $utilisateur
  */
 ?>
-<div class="row"><!--
-    <aside class="column">
-         
-        <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('List Utilisateur'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-        </div>
-        /utilisateur/add
-    </aside>
-    -->
+<div class="row">
     <div class="column column-80">
         <div class="utilisateur form content">
             <?= $this->Form->create($utilisateur) ?>
             <fieldset>
-                <legend><?= __('Add Utilisateur') ?></legend>
+                <h3><?= __('Inscription') ?></h3>
                 <?php
                     echo $this->Form->control('nomUtilisateur');
                     echo $this->Form->control('prenomUtilisateur');
