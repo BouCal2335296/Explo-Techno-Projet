@@ -35,8 +35,4 @@ class Utilisateur extends Entity
         'mdp' => true,
         'sel' => true,
     ];
-    protected array $_hidden = [
-        'mdp',
-        'sel'
-    ];
 }
