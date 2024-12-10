@@ -5602,3 +5602,867 @@ Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/Projet-Stationso
 Cake\Error\ExceptionTrap->handleException() [internal], line ??
 [main]
 
+2024-12-10 18:47:45 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 18:47:45 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 18:47:45 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 18:47:45 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 18:47:45 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 18:47:53 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 18:47:53 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 18:47:53 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 18:47:53 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 18:47:53 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:05 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:05 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:05 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:05 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:05 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:51 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:51 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:51 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:51 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:06:51 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:08:20 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:08:20 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:08:20 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:08:20 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:08:20 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:09:21 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:09:21 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:09:21 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:09:21 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:09:21 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:10:47 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:10:47 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:10:47 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:10:47 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:10:47 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:11 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:11 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:11 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:11 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:11 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:31 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:31 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:31 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:31 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:11:31 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:14:31 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:14:31 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:14:31 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:14:31 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:14:31 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:17:40 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:17:40 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:17:40 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:17:40 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:17:40 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:20:48 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:20:48 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:20:48 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:20:48 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:20:48 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:08 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:08 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:08 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:08 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:08 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:18 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:18 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:18 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:18 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:21:18 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:23:27 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:23:27 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:23:27 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:23:27 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:23:27 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:26:08 warning: Unable to emit headers. Headers sent in file=/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php line=830
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:26:08 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:26:08 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:26:08 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+
+2024-12-10 19:26:08 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Error/Debugger.php:830)
+Request URL: /orientationmoteur/lancer-moteur
+Referer URL: https://localhost/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/orientationmoteur
+Client IP: 127.0.0.1
+Trace:
+/var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /var/www/html/Projet-Stationsolaire/Explo-Techno-Projet/Explo-Techno-projet/webroot/index.php, line 37
+[main]
+

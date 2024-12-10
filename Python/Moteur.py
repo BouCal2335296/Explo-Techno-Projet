@@ -52,14 +52,16 @@ pwm = GPIO.PWM(servo_pin, 20)  # Fréquence de 50Hz pour le servo moteur
 pwm.start(0)  # Démarre avec un rapport cyclique de 0 (ne bouge pas le moteur)
  
 def tourner_A():
-    pwm.ChangeDutyCycle(7.5)  # Ajustez la valeur pour la rotation à droite
-    time.sleep(1)
+    pwm.ChangeDutyCycle(3.5)  # Ajustez la valeur pour la rotation à droite
+    time.sleep(0.4)
     pwm.ChangeDutyCycle(0)  # Ajustez la valeur pour la rotation à droite
 
 
 def tourner_RAZ():
-    pwm.ChangeDutyCycle(7.5)  # Ajustez la valeur pour la rotation à droite
-    time.sleep(2)
+    pwm.ChangeDutyCycle(0.5)  # Ajustez la valeur pour la rotation à droite
+    time.sleep(0.75)
+    pwm.ChangeDutyCycle(0)  # Ajustez la valeur pour la rotation à droite
+
  
 
 
