@@ -37,7 +37,7 @@ use Cake\Http\Session;
 <body>
     <nav class="top-nav">
         <div class="top-nav-title">
-            <a href="../Explo-Techno-projet/Accueil"><span>Cake</span>PHP</a>
+            <a href="<?= $this->Url->build('/Accuei') ?>"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
             <a rel="noopener" href="<?= $this->Url->build('/Relever') ?>">Relever</a>
