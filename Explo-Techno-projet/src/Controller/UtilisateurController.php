@@ -112,7 +112,7 @@ class UtilisateurController extends AppController
             if ($this->Utilisateur->save($utilisateur)) {
                 //autoLogin($utilisateur);
                 $this->Flash->success(__('Utilisateur ajouté avec succès.'));
-                return $this->redirect(['controller' => 'Accueil', 'action' => 'index']);
+                return $this->redirect(['controller' => 'Utilisateur', 'action' => 'connexion']);
             }
             $this->Flash->error(__('Impossible d\'ajouter l\'utilisateur.'));
         }
@@ -151,35 +151,6 @@ class UtilisateurController extends AppController
         }
         $this->set(compact('utilisateur'));
     }
-
-    
-/*
-    public function autoLogin($utilisateur = null)
-    {
-        if ($utilisateur != null) 
-        {
-            // Récupérer le sel et vérifier le mot de passe
-            $sel = $this->request->getData('sel'); // Récupérer le sel de l'utilisateur
-            $motDePasse = $this->request->getData('mdp'); // Récupérer le mot de passe de l'utilisateur
-            
-            // Ajouter le sel au mot de passe et vérifier avec password_verify()
-            if (password_verify($motDePasse . $sel, $utilisateur->mdp)) 
-            {
-                $this->Auth->setUser($utilisateur);
-                return $this->redirect(['controller' => 'Accueil', 'action' => 'index']);
-            }
-            $this->Flash->error(__('Identifiants incorrects.'));
-        } 
-        else 
-        {
-            $this->Flash->error(__('Utilisateur non trouvé.'));
-        }
-    }
-*/
-
-    
-
-
 
     /**
      * Edit method
