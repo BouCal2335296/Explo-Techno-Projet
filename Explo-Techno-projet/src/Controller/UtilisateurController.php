@@ -65,30 +65,6 @@ class UtilisateurController extends AppController
         $this->set(compact('utilisateur'));
     }
 
-
-
-    /**
-     * Add method
-     *
-     * @return \Cake\Http\Response|null|void Redirects on successful add, renders view otherwise.
-     */
-    /*
-    public function add()
-    {
-        $utilisateur = $this->Utilisateur->newEmptyEntity();
-        if ($this->request->is('post')) {
-            $utilisateur = $this->Utilisateur->patchEntity($utilisateur, $this->request->getData());
-            if ($this->Utilisateur->save($utilisateur)) {
-                $this->Flash->success(__('The utilisateur has been saved.'));
-
-                return $this->redirect(['action' => 'index']);
-            }
-            $this->Flash->error(__('The utilisateur could not be saved. Please, try again.'));
-        }
-        $this->set(compact('utilisateur'));
-    }*/
-
-
     public function inscription()
     {
         $utilisateur = $this->Utilisateur->newEmptyEntity();
