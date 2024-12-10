@@ -40,7 +40,7 @@ use Cake\Http\Session;
             <a href="<?= $this->Url->build('/Accueil') ?>"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
-            <a rel="noopener" href="<?= $this->Url->build('/Relever') ?>">Relever</a>
+            <a rel="noopener" href="<?= $this->Url->build('/Orientationmoteur') ?>">Orientation Moteur</a>
             <a rel="noopener" href="<?= $this->Url->build('/Historiquerelever') ?>">Historique</a>
         </div>
         <div class="top-nav-links">
