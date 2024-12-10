@@ -15,6 +15,7 @@
  */
 
 $cakeDescription = 'CakePHP: the rapid development php framework';
+use Cake\Http\Session;
 ?>
 <!DOCTYPE html>
 <html>
@@ -36,15 +37,18 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
     <nav class="top-nav">
         <div class="top-nav-title">
-            <a href="../Explo-Techno-projet/Accueil"><span>Cake</span>PHP</a>
+            <a href="<?= $this->Url->build('/Accuei') ?>"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
             <a rel="noopener" href="<?= $this->Url->build('/Relever') ?>">Relever</a>
             <a rel="noopener" href="<?= $this->Url->build('/Historiquerelever') ?>">Historique</a>
         </div>
         <div class="top-nav-links">
-            <a rel="noopener" href="<?= $this->Url->build('/Connexion') ?>">Connexion</a>
-            <a rel="noopener" href="<?= $this->Url->build('/utilisateur/add') ?>">Inscription</a>
+            <?php if ($this->request->getSession()->check('User.prenom')): ?>
+                <p class="user-name">Bonjour, <?= h($this->request->getSession()->read('User.prenom')); ?></p>
+            <?php endif; ?>
+            <a rel="noopener" href="<?= $this->Url->build('/utilisateur/connexion') ?>">Connexion</a>
+            <a rel="noopener" href="<?= $this->Url->build('/utilisateur/inscription') ?>">Inscription</a>
         </div>
     </nav>
     <main class="main">

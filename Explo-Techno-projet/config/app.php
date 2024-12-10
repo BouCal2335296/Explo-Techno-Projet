@@ -410,8 +410,14 @@ return [
      * To use database sessions, load the SQL file located at config/schema/sessions.sql
      */
     'Session' => [
-        'defaults' => 'php',
-    ],
+        'defaults' => 'php', // Utilise le gestionnaire de session PHP natif
+        'cookie' => 'my_app_session', // Nom du cookie de session
+        'timeout' => 120, // Délai d'expiration en minutes
+        'ini' => [
+            'session.cookie_lifetime' => 7200, // Durée de vie du cookie
+            'session.gc_maxlifetime' => 7200, // Durée de vie de la session
+        ],
+    ],    
     'DebugKit' => [
         'forceEnable' => filter_var(env('DEBUG_KIT_FORCE_ENABLE', false), FILTER_VALIDATE_BOOLEAN),
         'safeTld' => env('DEBUG_KIT_SAFE_TLD', null),
