@@ -1,0 +1,17 @@
+2024-11-13 14:36:08 warning: Array to string conversion
+Trace:
+Twig\Template->display() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\twig\twig\src\Template.php, line 364
+Twig\Template->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\twig\twig\src\TemplateWrapper.php, line 35
+Twig\TemplateWrapper->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\twig-view\src\View\TwigView.php, line 299
+Cake\TwigView\View\TwigView->_evaluate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\bake\src\View\BakeView.php, line 91
+Bake\View\BakeView->render() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 409
+Bake\Command\TemplateCommand->getContent() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 151
+Bake\Command\TemplateCommand->execute() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\bake\src\Command\AllCommand.php, line 116
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 192
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 330
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\Explo-Techno-Projet\Explo-Techno-projet\bin\cake.php, line 10
+[main]
+
